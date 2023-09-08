@@ -19,3 +19,5 @@ O site do Homem-Aranha foi desenvolvido utilizando as seguintes tecnologias:
 - JavaScript
 
 Este README é apenas um exemplo fictício para um site do Homem-Aranha.
+
+link do site: https://lucasmsti.github.io/spider-verse/
