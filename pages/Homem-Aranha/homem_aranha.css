@@ -3,10 +3,76 @@
     margin: 0;
 }
 
-body {
-    background-image: url("../../img/spider-man-616-background.png");
+@font-face {
+    font-family: 'spidermanFont';
+    src: url('../../font/spider-man.otf');
 }
 
-.homem-aranha {
+body {
+    background-image: url("../../img/spider-man-616-background.png");
+    color: #fff;
+}
+
+main {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    min-height: 100vh;    
+    gap: 6em;   
+}
+
+.hero-image .homem-aranha {
     height: 600px;
 }
+
+.hero-image .homem-aranha:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.hero-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+h1 {
+    font: 4vw 'spidermanFont';
+}
+
+.info-content-main {
+    display: flex;
+    gap: 3em;
+}
+
+span {
+    font-size: 1.2vw;
+}
+
+.first-appearance {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.first-appearance p {
+    font-size: 1.6em;
+}
+
+.first-appearance img {
+    height: auto;
+    width: 8vw;
+
+}
+
+.first-appearance img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+
+
+
